@@ -1,0 +1,15 @@
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\bin\Debug\net6.0\VbAppConsole.exe
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\bin\Debug\net6.0\VbAppConsole.deps.json
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\bin\Debug\net6.0\VbAppConsole.runtimeconfig.json
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\bin\Debug\net6.0\VbAppConsole.dll
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\bin\Debug\net6.0\VbAppConsole.pdb
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\VbAppConsole.vbproj.AssemblyReference.cache
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\VbAppConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\VbAppConsole.AssemblyInfoInputs.cache
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\VbAppConsole.AssemblyInfo.vb
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\VbAppConsole.vbproj.CoreCompileInputs.cache
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\VbAppConsole.dll
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\refint\VbAppConsole.dll
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\VbAppConsole.pdb
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\VbAppConsole.genruntimeconfig.cache
+C:\Users\alief\source\batch18\VbAppConsole\VbAppConsole\obj\Debug\net6.0\ref\VbAppConsole.dll
