@@ -1,41 +1,26 @@
 ﻿Imports System.Data
+Imports VbAppConsole.PartThree
 
-Namespace PartTwo
-    Public Class Employee
+Namespace PartThree
+    Public MustInherit Class Employee
+
         Private _empId As Integer
         Private _firstName As String
         Private _lastName As String
         Private _joinDate As DateTime
         Private _basicSalary As Double
         Private _totalSalary As Double
-        Private _id As Integer = New Random().NextInt64(1, 10)
 
-        'default constructor
-        Public Sub New()
 
+        Protected Sub New(firstName As String, lastName As String, joinDate As Date, basicSalary As Double)
+            Me.EmpId = New Random().NextInt64(1, 11)
+            Me.FirstName = firstName
+            Me.LastName = lastName
+            Me.JoinDate = joinDate
+            Me.BasicSalary = basicSalary
+            Me.TotalSalary += basicSalary
         End Sub
 
-
-        'create constructor
-        Public Sub New(empId As Integer, firstName As String, lastName As String, joinDate As Date, basicSalary As Double)
-            _empId = empId
-            _firstName = firstName
-            _lastName = lastName
-            _joinDate = joinDate
-            _basicSalary = basicSalary
-            TotalSalary = basicSalary
-        End Sub
-
-
-        'overload constructor
-        Public Sub New(firstName As String, lastName As String, joinDate As Date, basicSalary As Double)
-            _empId = New Random().NextInt64(1, 10) 'untuk generate random id
-            _firstName = firstName
-            _lastName = lastName
-            _joinDate = joinDate
-            _basicSalary = basicSalary
-            TotalSalary = basicSalary
-        End Sub
 
 
         Public Property EmpId As Integer
@@ -74,7 +59,6 @@ Namespace PartTwo
             End Set
         End Property
 
-
         Public Overridable Property BasicSalary As Double
             Get
                 Return _basicSalary
@@ -93,6 +77,10 @@ Namespace PartTwo
             End Set
         End Property
 
+        Public MustOverride Function gross() As Double
+
+        Public MustOverride Function nett() As Double
+
         Public Overrides Function ToString() As String
             Return $"
             EmpId :  {EmpId}, 
@@ -101,6 +89,7 @@ Namespace PartTwo
             joinDate : {JoinDate},
             basicSalary : {BasicSalary}"
         End Function
+
     End Class
 
 End Namespace

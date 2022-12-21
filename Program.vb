@@ -1,5 +1,5 @@
 Imports System
-Imports VbAppConsole.PartTwo
+Imports VbAppConsole.PartThree
 
 Module Program
     Sub Main(args As String())
@@ -16,7 +16,42 @@ Module Program
         'DecisionModule.WhoIsTheGreatest()
         'ModuleDateTime.ShowDate()
         'ModuleIteration.KotakBintang(5)
-        ModulePartTwo.initEmployee()
+
+        'ModuleArray.DisplayArray()
+        'ModuleArray.InitListGeneric()
+
+
+        'call interface kiri & implementation kanan
+
+        'Dim Ihrvar As ITunjangan = New Programmer
+
+        'Dim listEmp = Ihrvar.InitEmployee()
+        'listEmp.Tmakan(500)
+
+        ModuleTesting.nyoba()
+
+
+
+
+        'Ihrvar.DisplayEmployee(listEmp)
+
+        'find employee id
+
+        'Dim emp = Ihrvar.FindEmployeeByID(listEmp, 1)
+        'If emp IsNot Nothing Then
+        '    Console.Write($"Employee Found :, {emp}")
+        'Else
+        '    Console.Write("Employee Not Found")
+        'End If
+
+        'ModulePartTwo.initEmployee()
+
+        'Console.WriteLine($"Total Employee Programmer : {Ihrvar.TotalEmployee(listEmp, "Programmer")}")
+        'Console.WriteLine($"total employee programmer : {Ihrvar.TotalEmployeeByRole(listEmp, "Employee")}")
+        'Console.WriteLine($"total salary employee programmer : {Ihrvar.TotalEmployeSalaryByRole(listEmp, "Programmer")}")
+        'Console.WriteLine(Ihrvar.TotalSalaryAll(listEmp))
+
+
     End Sub
 
     Sub SayMyName()
